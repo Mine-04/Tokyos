@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Description</title>
+</head>
+<body>
+  <form method="post" action="traitement.php">
+
+<p>
+
+Cochez les aliments que vous aimez manger :<br />
+
+<input type="checkbox" name="frites" id="frites" /> <label for="frites">frites</label><br />
+
+<input type="checkbox" name="atassi" id="atassi" /> <label for="atassi">atassi</label><br />
+
+<input type="checkbox" name="pâte noire" id="pâte noire" checked="pâte noire" /> <label for="pâte noire">pâte noire</label><br />
+
+<input type="checkbox" name="igname pilé" id="igname pilé" /> <label for="igname pilé">igname pilé</label>
+
+</p>
+
+</form>
+
+✓ Les zones d'options (boutons radio)
+<form method="post" action="traitement.php">
+<p>
+<label for="pays">Dans quel pays habitez-vous ?</label><br />
+<select name="pays" id="pays">
+<option value="france">France</option>
+<option value="espagne">Espagne</option>
+<option value="italie">Italie</option>
+<option value="royaume-uni">Royaume-Uni</option>
+<option value="canada">Canada</option>
+<option value="etats-unis">Etats-Unis</option>
+<option value="chine">Chine</option>
+<option value="japon">Japon</option>
+</select>
+</p>
+
+</form>
+  
+  <h3> Présentez-vous..</h3>
+ <textarea name="precisions" id="precisions" cols="40" rows="4" tabindex="80"></textarea>
+  
+</p>
+
+
+
+<p>
+<input type="submit" /> <input type="reset" />
+
+</p>
+
+</form>
+  
+</body>
+</html>
